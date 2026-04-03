@@ -1399,7 +1399,7 @@ const HARDCODED_PROJECTS = [
         title: 'PrismHold',
         description: 'PrismHold is a luxury handmade brand co-founded with my brother. We have sold 100+ units and expanded sales via Amazon & Flipkart. Currently working together on growing the business and developing the brand further.',
         date: '2023-11-30',
-        githubUrl: 'https://github.com/Saif09inAction/Prismhold',
+        githubUrl: 'https://github.com/Saif09inAction/Prismhold.store',
         siteUrl: 'https://www.prismhold.store/',
         technologies: ['HTML', 'CSS', 'JavaScript'],
         thumbnail: 'images/projects/prismhold.png'
