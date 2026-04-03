@@ -5,8 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "npx serve . -p 3000",
+    "dev:next": "npm run dev --prefix portfolio-next",
     "build": "node build.js",
-    "vercel-build": "node build.js",
+    "build:next": "npm install --prefix portfolio-next && npm run build --prefix portfolio-next",
+    "vercel-build": "cd portfolio-next && npm install && npm run build",
     "start": "npx serve . -p 3000"
   },
   "devDependencies": {

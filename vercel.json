@@ -1,8 +1,6 @@
 {
   "version": 2,
-  "buildCommand": "npm run vercel-build",
-  "outputDirectory": "dist",
-  "installCommand": "npm install",
-  "framework": null,
-  "cleanUrls": true
+  "installCommand": "cd portfolio-next && npm install",
+  "buildCommand": "cd portfolio-next && npm run build",
+  "framework": "nextjs"
 }
